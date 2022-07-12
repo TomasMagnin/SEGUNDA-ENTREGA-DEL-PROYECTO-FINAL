@@ -14,79 +14,64 @@
 </head>
 <body>
     
-    <!-- Inicio de Header -->
-
-    
-
+<!-- Inicio de Header -->
 <header>
 
     <!-- Aplicamos Titulo, Imagen, y Serch  -->
-
-
-<div>
-
     <div class="header-Titulo-Imagen">
-        <div class="d-flex justify-content-center p-2">
-            <div class="">
-                <h1 class="header-h1">Market Online</h1>
-            </div>
-            <div class="header-img ">
-                <img src="../assets/images/Market Online.png" alt="Logo">
-             </div>
-            <div class="buscador align-self-center m-4">
-                <form>
-                  <input  type="search" placeholder="Buscar">
-                  <button>Buscar</button>
-                </form>
-            </div>
-        </div>    
-</div>
-
+        <div>
+            <h1 class="header-h1">Market Online</h1>
+        </div>
+        <div class="header-img ">
+            <img src="../assets/images/Market Online.png" alt="Logo">
+        </div>   
+    </div>
+    <div class="buscador">
+        <form>
+            <input  type="search" placeholder="Buscar">
+            <a class="buscador-icon" href="">
+                     <img src="../assets/icon/magnifying-glass-solid.svg" alt="Buscador">
+            </a>     
+        </form>
+    </div>
 <!-- Fin de Titulo, Imagen, y Serch  -->
 
 <!-- Aplicamos una Navbar con Bootstrap, utilizando un componente de Bootstrap -->
-
-<nav class="navbar navbar-expand-lg nv">
-    <div class="container-fluid ">
-      <!-- <a class="navbar-brand">Categorias</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <a class="navbar-brand">Categorias</a>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li>
-            <a class="nav-link active" aria-current="page">Categorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Vehiculos.html">Vehículos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Tecnologia.html">Tecnología</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Herramientas.html">Herramientas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Electrodomesticos.html">Electrodomésticos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Contactos.html">Contactos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+    <nav class="navbar navbar-expand-lg nv">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand">Categorias</a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Autos.html">Autos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Motos.html">Motos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Bicicletas.html">Bicicletas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./QuienesSomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contactos.html">Contactos</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <!--------------------- Fin de la NavBar con Bootstrap ----------------->
-
+<!------------------ Fin del Header -------------------------------->
 </header>
 
 
-<!------------------ Fin del Header -------------------------------->
 <!------------------ Inicio de Main -------------------------------->
     
 
@@ -107,12 +92,12 @@
         </section>
        
         <!-- Inicio Ubicación -->
-        <section class="card-contact">
-            <div class="mppp">
-                <h3 class="title__map">Ubicación de Nuestras Oficinas</h3>
+        <section class="contact">
+            <div class="contact_div">
+                <h3 class="contact_title">Ubicación de Nuestras Oficinas</h3>
             </div>
             <div>
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.900458145938!2d-64.1872931115183!3d-31.416868521381446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329902eb0b2faf%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sar!4v1653885232923!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.900458145938!2d-64.1872931115183!3d-31.416868521381446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329902eb0b2faf%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sar!4v1653885232923!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>    
             </section>
         <!-- Fin Ubicación -->

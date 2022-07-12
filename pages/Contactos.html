@@ -14,81 +14,62 @@
 </head>
 <body>
     
-    <!-- Inicio de Header -->
-
-    
-
+<!-- Inicio de Header -->
 <header>
 
     <!-- Aplicamos Titulo, Imagen, y Serch  -->
-
-
-<div>
-
     <div class="header-Titulo-Imagen">
-        <div class="d-flex justify-content-center p-2">
-            <div class="">
-                <h1 class="header-h1">Market Online</h1>
-            </div>
-            <div class="header-img ">
-                <img src="../assets/images/Market Online.png" alt="Logo">
-             </div>
-            <div class="buscador align-self-center m-4">
-                <form>
-                  <input  type="search" placeholder="Buscar">
-                  <button>Buscar</button>
-                </form>
-            </div>
-        </div>    
-</div>
-
+        <div>
+            <h1 class="header-h1">Market Online</h1>
+        </div>
+        <div class="header-img ">
+            <img src="../assets/images/Market Online.png" alt="Logo">
+        </div>   
+    </div>
+    <div class="buscador">
+        <form>
+            <input  type="search" placeholder="Buscar">
+            <a class="buscador-icon" href="">
+                     <img src="../assets/icon/magnifying-glass-solid.svg" alt="Buscador">
+            </a>     
+        </form>
+    </div>
 <!-- Fin de Titulo, Imagen, y Serch  -->
 
 <!-- Aplicamos una Navbar con Bootstrap, utilizando un componente de Bootstrap -->
-
-<nav class="navbar navbar-expand-lg nv">
-    <div class="container-fluid ">
-      <!-- <a class="navbar-brand">Categorias</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <a class="navbar-brand">Categorias</a>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li>
-            <a class="nav-link active" aria-current="page">Categorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Vehiculos.html">Vehículos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Tecnologia.html">Tecnología</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Herramientas.html">Herramientas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Electrodomesticos.html">Electrodomésticos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Contactos.html">Contactos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-<!-- Fin de la NavBar con Bootstrap -->
-
+    <nav class="navbar navbar-expand-lg nv">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand">Categorias</a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Autos.html">Autos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Motos.html">Motos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Bicicletas.html">Bicicletas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./QuienesSomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contactos.html">Contactos</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--------------------- Fin de la NavBar con Bootstrap ----------------->
+<!------------------ Fin del Header -------------------------------->
 </header>
-
-
-    <!-- Fin del Header -->
-    
-
     <!-- Inicio de Formulario -->
     <section class="section">
         <article>
@@ -97,27 +78,27 @@
             </div>
             <div>
                 <form  class="formulario" action="">
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <label  for="Campo Nombre"><b>Ingrese Nombre</b></label>
                         <input type="text" id="Campo Nombre" value="Ej: Pedro" required>
                     </div>
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <label for="Campo Apellido"><b>Ingrese su Apellido</b></label>
                         <input type="text" id="Campo Apellido" value="EJ: Messi" required>
                     </div>
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <label for="Campo Email"><b>Ingrese su Email</b></label>
                         <input type="email" id="Campo Email" value="Nombre@email.com">
                     </div>
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <label for="Campo Celular"><b>Ingrese Su Celular</b></label>
                         <input type="text" placeholder="Ingrese su Número de Teléfono" value="*54-9-351-5555555">
                     </div>
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <label for="Campo Fecha de Nacimiento"><b>Ingrese su Fecha de Nacimiento</b></label>
                         <input type="date" id="Campo Fecha de Nacimiento" value="18/09/1950">
                     </div>  
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <label for="text"><b>Elija su Sexo</b></label>
                         <select name="text" id="text">
                             <option value=""></option>
@@ -125,18 +106,15 @@
                             <option value="Femenino">Femenino</option>
                         ></select>
                     </div>
-                    <div class="form-input">
-                        <H4>Lea los terminos y condiciones y haga clic para aceptar</H4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="formulario_input">
+                        <p>Lea los terminos y condiciones y haga clic para aceptar</p>
                         <label for="Campo Aceptar"><b>Acepto los Términos y Condiciones</b></label>
                         <input type="checkbox" id="Campo Aceptar"  required  value="1">
                     </div>
-                    <div class="form-input">
+                    <div class="formulario_input">
                         <input type="submit">
                         <input type="reset">
-                    </div>
                     
-
                 </form>
             </div>
         </article>
